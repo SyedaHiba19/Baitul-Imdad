@@ -15,7 +15,7 @@
 }
 
 .container-fluid2-mobile-view{
-  padding: 40% 15% 40%;
+  padding: 20% 15% 40%;
   background-image: url("../Images/index-img1.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -30,7 +30,13 @@
 }
 
 .container-indexpage1{
-  padding: 10%;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 30px;
+  /*   padding: 10%; */
   /* text-align: center; */
   background: #F7FBE1;
   border-radius: 10%;
@@ -175,7 +181,7 @@ li{
   /* color: #093D27; */
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  font-size: 1.3rem;
+  font-size: 3.8rem;
   color: darkgreen;
   margin: 0;
 }
@@ -183,7 +189,7 @@ li{
 .heading-with-stroke1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 4rem;
   color: #F7FBE1;
   text-transform: uppercase;
   -webkit-text-stroke-width: 2px;
@@ -195,13 +201,13 @@ li{
 .heading-with-stroke2{
   font-family: 'Montserrat', sans-serif;
   font-weight:bolder;
-  font-size: 1.4rem;
+  font-size: 4rem;
   color: #F7FBE1;
   text-transform: uppercase;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #093D27;
   letter-spacing: -2.5px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
 }
 
 .no-mobile-donate-button{
@@ -225,7 +231,12 @@ li{
 .mobile-donate-button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    padding: 8px 16px 8px 16px;
+    font-size: 2rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+/*     padding: 8px 16px 8px 16px; */
     margin-left: 25px;
     margin-bottom: 12px;
     background-color: #093D27;
@@ -235,7 +246,12 @@ li{
 .mobile-volunteer-button{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  padding: 8px 32px 8px 16px;
+  font-size: 2rem;
+  padding-left: 65px;
+  padding-right: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+/*   padding: 8px 32px 8px 16px; */
   margin-left: 10px;
   margin-bottom: 12px;
   /* background-color: #B5C45F;
