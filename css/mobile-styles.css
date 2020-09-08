@@ -1,0 +1,653 @@
+#navbar{
+  background-color: #F7FBE1;
+
+}
+
+.navbar-toggle{
+  width: 20px;
+}
+
+/*-------------Containers-------------*/
+.container-fluid1{
+  width: 100%;
+  height: 3rem;
+  background-color: #fff;
+}
+
+.container-fluid2-mobile-view{
+  padding: 12% 15% 22%;
+  background-image: url("../Images/index-img1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 1;
+}
+
+.container-fluid2-desk-view{
+  display: none;
+}
+
+.container-indexpage1{
+  padding: 30px 20px 20px 20px;
+  /* text-align: center; */
+  background: #F7FBE1;
+  border-radius: 10%;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.container-fluid3{
+  padding: 12% 15% 12%;
+  background-color: #F7FBE1;
+  background-size: cover;
+}
+
+.container-fluid4{
+  padding: 5%;
+  background-image: url("../Images/about-us-background.png");
+  /* opacity: 0.9; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid5{
+    padding: 4%;
+    background-color: #BAC964;
+    width: 75%;
+    border-radius: 0.625rem;
+    margin-left: 16px;
+}
+
+.container-fluid6{
+  padding: 3% 5% 1%;
+  background-color: #0D3D27;
+  margin-bottom: 0;
+}
+
+.container-fluid7{
+  padding: 5%;
+  background-image: url("../Images/our-work-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid8{
+  padding: 1%;
+  background-image: url("../Images/estimate-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid9{
+  padding: 1%;
+  background-image: url("../Images/about-us-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .container-fluid10 / Quote */
+
+/*Container-fluid11*/
+.szakat{
+  /* padding: 3.2%; */
+  background-image: url("../Images/our-work-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Container-fluid12*/
+.contact{
+   padding: 2%;
+   background-color: #F7FBE1;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ /*Container-fluid12*/
+ .contact{
+    padding: 1%;
+    background-color: #F7FBE1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ /* .container-fluid13 / Quote */
+
+ /*Container-fluid14*/
+ .footer{
+   padding: 2%;
+   background-color:#F7FBE1 ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ /*Container-fluid15*/
+ .footermain{
+   padding: 1%;
+   background-color:#0D3D27;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+/*-------------------------------------*/
+
+
+
+
+/*------Index Page 1 / Main Page-------*/
+.row{
+  position: relative;
+  top: 1.6rem;
+}
+
+li{
+  list-style: none;
+}
+
+.index-page1{
+  padding: 0;
+  /* display: inline; */
+  margin: 0;
+  background: #F7FBE1;
+}
+
+.big-heading{
+  /* padding: 30px 20px 20px 20px; */
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  /* background: #F7FBE1;
+  border-radius: 10%; */
+  /* opacity: 0.7; */
+}
+
+.heading-without-stroke{
+  /* color: #093D27; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: darkgreen;
+  margin: 0;
+}
+
+.heading-with-stroke1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #F7FBE1;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #093D27;
+  letter-spacing: -2.5px;
+  margin: 0;
+}
+
+.heading-with-stroke2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  font-size: 1.4rem;
+  color: #F7FBE1;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000000;
+  letter-spacing: -2.5px;
+  margin-bottom: 25px;
+}
+
+.no-mobile-donate-button{
+  display: none;
+}
+
+.no-mobile-volunteer-button{
+  display: none;
+}
+
+.btn{
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+.mobile-view-button{
+  text-align: center;
+}
+
+.mobile-donate-button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 8px 16px 8px 16px;
+    margin-left: 25px;
+    margin-bottom: 12px;
+    background-color: #093D27;
+    color: #F7FBE1;
+}
+
+.mobile-volunteer-button{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 8px 32px 8px 16px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  /* background-color: #B5C45F;
+  color: #093D27; */
+  background-color: #093D27;
+  color: #F7FBE1;
+}
+
+.mobile-donate-button:hover, .mobile-volunteer-button:hover{
+  color: #093D27;
+  background-color: #B5C45F;
+}
+/*--------------------------------*/
+
+
+
+/*---------Index Page 2 / Description----------*/
+.index-page2{
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.mobile-view{
+  /* display: inline; */
+  text-align: center;
+  /* margin: 20px 0 20px 0; */
+  line-height: 1.5;
+  font-size: 15;
+}
+
+.no-mobile-view{
+  display: none;
+}
+
+.container-fluid3 .index-page2 .center-para {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #093D27;
+  letter-spacing: 0.2px;
+}
+
+.container-fluid3 .index-page2 .first-paragraph{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #B5C45F;
+}
+
+.container-fluid3 .index-page2 .second-paragraph{
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.container-fluid3 .index-page2 .second-para{
+  color: #B5C45F;
+}
+
+/*------------------------------------------*/
+
+
+/*-----------Index Page 3 / About Us Page--------*/
+.container-fluid4 h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #093D27;
+  text-align: center;
+  margin-top: 16px;
+  /* margin-bottom: 16px; */
+  /* position: absolute;
+  top: 64rem;
+  left: 12.5rem; */
+}
+
+/* .no-mobile-about-us-para{
+  display: none;
+} */
+
+/* .mobile-about-us-para{
+  margin: 10px 0 20px 13px;
+  padding: 0 30px 0 8px;
+} */
+/*
+.no-mobile-about-us-img{
+  display: none;
+} */
+
+/* .mobile-about-us-img{
+  bottom: 20px;
+  height: 430px;
+  width: 130px;
+  /* position: relative;
+  position: absolute;
+  top: 670px;
+  right: 4%;
+} */
+/*------------------------------------------*/
+
+
+/*------------Index Page 4 / Quote-----------*/
+.index-page4 ul, .index-page7 ul, .index-page10 ul{
+  padding-left: 0;
+}
+
+.index-page4, .index-page7, .index-page10{
+  padding: 0.8em;
+  /* display: inline; */
+  margin:0;
+  line-height: 1.3;
+}
+
+.quote-para1-no-mobile, .quote-para2-no-mobile{
+  display: none;
+}
+
+.quote-para1-mobile{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #F7FBE1;
+}
+
+.quote-para2-mobile{
+  text-align: center;
+  font-family: 'Rhodium libre', sans-serif;
+  font-size: 0.5rem;
+  font-weight: normal;
+  color: #F7FBE1;
+  margin: 10px 0 10px 0;
+}
+/*--------------------------------------------*/
+
+
+
+/*----------------Index Page 5 / Our Work-----------------*/
+.desktop-view-slideshow{
+  display: none;
+}
+
+.mobile-view-slideshow h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #093D27;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.card{
+  border: none;
+  border-radius: 1rem;
+}
+
+.card-img-top{
+  height: 200px;
+}
+
+.card-body{
+  background-color: blanchedalmond;
+  text-align: center;
+  border: none;
+}
+
+.mobile-view-slideshow .btn-dark{
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.mobile-view-slideshow .our-work-button{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 12px;
+  background-color: #093D27;
+  color: #F7FBE1;
+}
+
+.mobile-view-slideshow .our-work-button:hover{
+  color: #093D27;
+  background-color: #B5C45F;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  width: 6%;
+}
+/*---------------------------------------------*/
+
+
+/*------------Index Page 6 / Estimate-----------*/
+.container-fluid8 ul{
+  padding-left: 0;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+  top: 1.25rem;
+  line-height: 1;
+}
+
+.estimate-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #BAC964;
+}
+
+.estimate-number{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #D6171F;
+}
+/*-------------------------------------------------*/
+
+
+/*----------Index Page 7 / Future Plans-----------*/
+.container-fluid9 h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #093D27;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.container-fluid9 .row{
+  margin: 0;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.container-fluid9 .col-md-3{
+  padding-left: 45px;
+  padding-right: 45px;
+  width: 100%;
+}
+
+.card-text1, .card-text2, .card-text3, .card-text4{
+  background-color:#F7FBE1;
+  text-align: center;
+  font-family: Rhodium Libre;
+  font-weight: bold;
+  font-size: 77;
+  color: red;
+  padding: 30px 0 30px 0;
+  margin: 0;
+}
+/*-----------------------------------------------------*/
+
+/*Index Page 8 / Quote*/
+
+/*------------Index Page 9 / Zakat Page---------------*/
+.zakat-no-mobile-view{
+  display: none;
+}
+
+.zakatz{
+  flex-direction:column;
+}
+
+.szakat .contentz h1{
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   margin-top: 10px;
+   color:#0D3D27;
+   padding: 10px;
+   font-size: 1.4rem;
+   text-align: center;
+ }
+
+ .szakat .contentz p{
+   text-align: center;
+   color:  #093D27;
+   font-size: 1rem;
+ }
+
+.zakatz .cardz{
+  flex-direction:column;
+  /* max-width: 350px; */
+}
+
+.zakatz .cardz .imgz{
+  max-width: 100%;
+}
+
+.zakatz .cardz .imgz img{
+  width:100%
+}
+
+.zakatz .cardz .contentz{
+  margin-left:0px;
+}
+
+.zakatt{
+  width: 100%;
+  height: 366px;
+  background-color:#ECF4BC;
+}
+
+.zakatz .cardz{
+  position: relative;
+  /* max-width: 100%; */
+  background:#ECF4BC;
+  margin:10px;
+  padding: 15px;
+  display:flex;
+}
+
+.no-mobile-view-zakat-para{
+  display: none;
+}
+/*------------------------------------------*/
+
+
+/*----------Index Page 10 / Contact - Donation Page------------*/
+ .contact h4{
+   text-align: center;
+   color:#D6171F;
+   font-weight: 470;
+   font-size: 1.2rem;
+   margin-top: 20px;
+  }
+
+ .contact .row{
+   display: flex;
+   flex-wrap: wrap;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: 0 0 10px 0;
+ }
+
+ .contact1{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    /* width:300px; */
+    color:#0D3D27;
+  }
+
+ .contact2{
+    padding: 10px;
+    /* width: 600px; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color:#0D3D27;
+  }
+/*--------------------------------------------------------------*/
+
+/*Index Page 11 / Quote*/
+
+/*------------Index Page 12 / Footer Page --------------------*/
+.footer-logo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer1 ul li a{
+ font-size:0.3rem;
+ font-family: 'Montserrat', sans-serif ;
+ font-weight: bolder;
+ color: #0D3D27;
+ text-transform: uppercase;
+}
+
+.footer .row{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+.footer .row ul{
+  padding: 0;
+}
+
+.footer .row ul li{
+  list-style: none;
+  padding: 0.5%;
+  width: 100%;
+}
+
+.fa-instagram{
+  color: #093D27;
+}
+
+.fa-twitter{
+  color: #093D27;
+}
+
+.fa-facebook-square{
+  color: #093D27;
+}
+/*-----------------------------------------------*/
+
+
+/*----------Index Page 13 / Footer Main----------*/
+ .footermain p{
+   color: #F7FBE1;
+   font-size:10px;
+   font-weight: 500;
+   text-align: center;
+   margin-top: 16px;
+ }
