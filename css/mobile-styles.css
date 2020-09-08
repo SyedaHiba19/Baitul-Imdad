@@ -15,7 +15,7 @@
 }
 
 .container-fluid2-mobile-view{
-  padding: 18%;
+  padding: 10%;
   background-image: url("../Images/index-img1.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 }
 
 .container-indexpage1{
-  padding: 20%;
+  padding: 10%;
   /* text-align: center; */
   background: #F7FBE1;
   border-radius: 10%;
