@@ -68,7 +68,7 @@
 }
 
 .container-fluid6{
-  padding: 3% 5% 1%;
+  padding: 7%;
   background-color: #0D3D27;
   margin-bottom: 0;
 }
@@ -372,7 +372,8 @@ li{
 .quote-para1-mobile{
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 0.8rem;
+  font-size: 2.5rem;
+  line-height: 1.8;
   font-weight: bold;
   color: #F7FBE1;
 }
@@ -380,7 +381,7 @@ li{
 .quote-para2-mobile{
   text-align: center;
   font-family: 'Rhodium libre', sans-serif;
-  font-size: 0.5rem;
+  font-size: 2.2rem;
   font-weight: normal;
   color: #F7FBE1;
   margin: 10px 0 10px 0;
