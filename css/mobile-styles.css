@@ -74,7 +74,7 @@
 }
 
 .container-fluid7{
-  padding: 5% 6% 18%;
+  padding: 1% 5% 10%;
   background-image: url("../Images/our-work-background.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -400,8 +400,8 @@ li{
   font-weight: bold;
   color: #093D27;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .card{
