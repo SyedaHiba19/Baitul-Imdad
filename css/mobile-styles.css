@@ -74,7 +74,7 @@
 }
 
 .container-fluid7{
-  padding: 5%;
+  padding: 5% 6% 18%;
   background-image: url("../Images/our-work-background.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -396,12 +396,12 @@ li{
 
 .mobile-view-slideshow h1{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #093D27;
   text-align: center;
-  margin-top: 16px;
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .card{
@@ -409,14 +409,36 @@ li{
   border-radius: 1rem;
 }
 
+.whole-card{
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
 .card-img-top{
-  height: 200px;
+  height: 700px;
 }
 
 .card-body{
   background-color: blanchedalmond;
   text-align: center;
   border: none;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 3.2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-text{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 3rem;
 }
 
 .mobile-view-slideshow .btn-dark{
@@ -428,9 +450,15 @@ li{
 .mobile-view-slideshow .our-work-button{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  margin-bottom: 12px;
+  font-size: 3rem;
   background-color: #093D27;
   color: #F7FBE1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .mobile-view-slideshow .our-work-button:hover{
