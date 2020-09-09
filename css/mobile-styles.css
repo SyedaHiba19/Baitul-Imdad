@@ -469,6 +469,11 @@ li{
 .carousel-control-prev, .carousel-control-next{
   width: 6%;
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  width: 1000px;
+  height: 1000px;
+}
 /*---------------------------------------------*/
 
 
