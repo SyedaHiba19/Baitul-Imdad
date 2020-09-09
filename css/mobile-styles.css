@@ -82,7 +82,7 @@
 }
 
 .container-fluid8{
-  padding: 1%;
+  padding: 9%;
   background-image: url("../Images/estimate-background.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -489,14 +489,15 @@ li{
 
 .estimate-text{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 2.8rem;
   font-weight: bold;
   color: #BAC964;
+  line-height: 2;
 }
 
 .estimate-number{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 3.2rem;
   font-weight: bolder;
   color: #D6171F;
 }
